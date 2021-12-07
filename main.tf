@@ -163,9 +163,9 @@ resource "aws_route_table_association" "rta_subnet_private" {
 
 
 #creating key variable
-variable "rushabh_key" {
+variable "enter_ur_key_name" {
 type = string
-default = "terraformkey"
+default = "awskey"
 }
 
 #launcing wordpress AMI 
