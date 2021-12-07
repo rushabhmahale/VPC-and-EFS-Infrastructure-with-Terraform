@@ -30,4 +30,6 @@ mysql instance has to be part of private subnet so that outside world can’t co
 <br>variable "enter_ur_key_name" { <-------------------------- any name<br> 
 <br>type = string<br>
 <br>default = "awskey" <------------------ your key name only dont use extention pem<br>  
+  
+change key name - var.enter_your_key
 }
