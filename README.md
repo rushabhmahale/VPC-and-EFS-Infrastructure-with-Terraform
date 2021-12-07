@@ -36,7 +36,7 @@ mysql instance has to be part of private subnet so that outside world can’t co
 change key name - var.enter_your_key to xyz
 ![Screenshot (139)](https://user-images.githubusercontent.com/63963025/144970213-99b53b79-94f9-45f4-9f01-d3a9bc549e37.png)
 
-## terraform init:
+## terraform init
 ![Screenshot (127)](https://user-images.githubusercontent.com/63963025/144970311-b40660f4-59e0-4829-8314-d3a0b5928ff5.png)
 
 ## terraform plan
@@ -46,5 +46,31 @@ change key name - var.enter_your_key to xyz
 ## terraform apply
 ![Screenshot (129)](https://user-images.githubusercontent.com/63963025/144970375-abb5f8e0-fab7-4e56-9ac9-63a0aa9218c3.png)
 
-## EC2 
+## EC2 Instance 
 
+![vm](https://user-images.githubusercontent.com/63963025/144977391-4c502fb1-c191-4645-82b5-fc6c6076de0b.png)
+
+## VPC
+![vpc](https://user-images.githubusercontent.com/63963025/144979705-5d710f2d-813f-4461-95b0-e6bb0269979d.png)
+
+
+## Subnets
+![subnets](https://user-images.githubusercontent.com/63963025/144979380-2a48c95b-e49b-4a78-881d-7248603f1bc1.png)
+
+
+## Security group
+
+![SG](https://user-images.githubusercontent.com/63963025/144979079-185a9711-df71-45cd-8a5f-fe605413bdb8.png)
+
+## Elastic IP
+![elastic ip](https://user-images.githubusercontent.com/63963025/144979219-7364852d-0826-412f-b39f-c14f40d6026c.png)
+
+## Route table
+![route table](https://user-images.githubusercontent.com/63963025/144979445-984a3b24-647e-49a2-ad5a-d755d8ebc695.png)
+
+## Internet Gateway
+
+![internet gateway](https://user-images.githubusercontent.com/63963025/144979484-3c3fcd93-caa4-4e8e-a77d-109d700edfd4.png)
+
+## NAT Gateway
+![NAT gateway](https://user-images.githubusercontent.com/63963025/144979568-302fb811-e4b1-4844-a22e-ab9e7527f8a2.png)
