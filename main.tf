@@ -161,7 +161,6 @@ resource "aws_route_table_association" "rta_subnet_private" {
    route_table_id = aws_route_table.ppsprivatetable.id
   }
 
-
 #creating key variable
 variable "enter_ur_key_name" {
 type = string
@@ -170,12 +169,12 @@ default = "awskey"
 
 #launcing wordpress AMI 
 resource "aws_instance" "ppswp" {
-  ami           = "ami-06a0b4e3b7eb7a300"
+  ami           = "ami-000cbce3e1b899ebd"
   instance_type = "t2.micro"
   associate_public_ip_address = true
   subnet_id = aws_subnet.ppspublic.id
   vpc_security_group_ids = [aws_security_group.ppsSGwp.id]
-  key_name = var.rushabh_key
+  key_name = var.enter_ur_key_name
   availability_zone = "ap-south-1a"
 
 
@@ -186,14 +185,15 @@ resource "aws_instance" "ppswp" {
 
 #launching mysql AMI
 resource "aws_instance" "ppsmysql" {
-  ami           = "ami-06a0b4e3b7eb7a300"
+  ami           = "ami-08706cb5f68222d09"
   instance_type = "t2.micro"
   subnet_id = "${aws_subnet.ppsprivate.id}"
   vpc_security_group_ids = [aws_security_group.ppsSGmysql.id]
-  key_name = var.rushabh_key
+  key_name = var.enter_ur_key_name
   availability_zone = "ap-south-1b"
  tags ={
     
     Name= "rsmmysql"
   }
 }
+
