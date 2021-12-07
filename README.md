@@ -2,7 +2,7 @@
 
 ## Diagram 
 
-![aws terraform vpc sql wordpress](https://user-images.githubusercontent.com/63963025/144967814-e0f137a5-c242-438f-827b-7b3c11b1f581.png)
+
 
 ## Performing the following steps:
 
@@ -23,13 +23,28 @@ mysql instance has to be part of private subnet so that outside world can’t co
 - <b>Wordpress instance has to be part of public subnet so that our client can connect our site.</b>
 - <b>mysql instance has to be part of private subnet so that outside world can’t connect to it.</b>
 
-<b>Also go to AWS go to EC2 service instance  than go to <b>Network and security there is an option called key pair click on it create one new key pem format and Download that key paste that key in same directory where your code is running<b>
+<b>Also go to AWS go to EC2 service instance  than go to Network and security there is an option called key pair click on it create one new key pem format and Download that key paste that key in same directory where your code is running</b>
   
 ## Changes to do:
-  <br>#creating key variable<br> 
+ <b><br>#creating key variable<br> 
 <br>variable "enter_ur_key_name" { <-------------------------- any name<br> 
 <br>type = string<br>
 <br>default = "awskey" <------------------ your key name only dont use extention pem<br>  
   
-change key name - var.enter_your_key
-}
+}</b>
+
+change key name - var.enter_your_key to xyz
+![Screenshot (139)](https://user-images.githubusercontent.com/63963025/144970213-99b53b79-94f9-45f4-9f01-d3a9bc549e37.png)
+
+## terraform init:
+![Screenshot (127)](https://user-images.githubusercontent.com/63963025/144970311-b40660f4-59e0-4829-8314-d3a0b5928ff5.png)
+
+## terraform plan
+
+![Screenshot (128)](https://user-images.githubusercontent.com/63963025/144970344-9faa3ab8-d3a8-4958-9af0-ca33f57657e5.png)
+
+## terraform apply
+![Screenshot (129)](https://user-images.githubusercontent.com/63963025/144970375-abb5f8e0-fab7-4e56-9ac9-63a0aa9218c3.png)
+
+## EC2 
+
