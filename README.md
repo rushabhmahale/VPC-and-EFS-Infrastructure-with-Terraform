@@ -1,5 +1,7 @@
 # VPC-and-EFS-Infrastructure-with-Terraform
 
+## Video link:- https://drive.google.com/file/d/1IeZ9m6oVYEHefNqJntTCs52zH5bkwpdw/view?usp=sharing
+
 ## Diagram:-
 
 ![terraform final module efs drawio](https://user-images.githubusercontent.com/63963025/144979970-75863704-1591-48a3-b1d2-fd55ae5194dd.png)
