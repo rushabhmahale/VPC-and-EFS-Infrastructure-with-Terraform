@@ -1,7 +1,8 @@
 # VPC-and-EFS-Infrastructure-with-Terraform
 
-## Diagram 
+## Diagram:-
 
+![terraform final module efs drawio](https://user-images.githubusercontent.com/63963025/144979970-75863704-1591-48a3-b1d2-fd55ae5194dd.png)
 
 
 ## Performing the following steps:
